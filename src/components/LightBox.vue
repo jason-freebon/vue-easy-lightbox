@@ -21,6 +21,9 @@
           @mousedown="handleMouseDown($event)"
           @mouseup="handleMouseUp($event)"
           @mousemove="handleMouseMove($event)"
+          @touchstart="handleMouseDown($event)"
+          @touchend="handleMouseUp($event)"
+          @touchmove="handleMouseMove($event)"
         >
         <!-- END: Imgs -->
       </div>
